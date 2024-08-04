@@ -1,0 +1,70 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('anime_movie_poster.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  /* Styles for the container */
+  .container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    width: 350px;
+  }
+  
+  /* Styles for the header */
+  .container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the input field */
+  .container input[type="email"] {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  }
+  
+  /* Styles for the button */
+  .container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the button on hover */
+  .container button:hover {
+    background-color: #218838;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Success message styling */
+  .success {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
